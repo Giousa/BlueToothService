@@ -9,6 +9,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/**
+ * Description:
+ * Author:Giousa
+ * Date:2016/12/14
+ * Email:65489469@qq.com
+ */
 public class DeviceListAdapter extends BaseAdapter {
 	private ArrayList<DeviceBean> mDatas;
 	private LayoutInflater mInflater;

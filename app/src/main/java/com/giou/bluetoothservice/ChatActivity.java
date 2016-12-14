@@ -28,14 +28,10 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 /**
- * 会话界面
- * 
- * @Project App_Bluetooth
- * @Package com.android.bluetooth
- * @author chenlin
- * @version 1.0
- * @Date 2013年3月2日
- * @Note TODO
+ * Description:
+ * Author:Giousa
+ * Date:2016/12/14
+ * Email:65489469@qq.com
  */
 public class ChatActivity extends Activity implements OnItemClickListener, OnClickListener {
 	private static final int STATUS_CONNECT = 0x11;
@@ -59,7 +55,6 @@ public class ChatActivity extends Activity implements OnItemClickListener, OnCli
 	// 蓝牙客户端socket
 	private BluetoothSocket mSocket;
 	// 设备
-	private BluetoothDevice mDevice;
 	private BluetoothAdapter mBluetoothAdapter;
 
 	// --线程类-----------------
